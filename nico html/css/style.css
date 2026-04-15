@@ -1,0 +1,237 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    color: #F4F1DE;
+    background-color: #0D1B2A;
+}
+
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #F4F1DE;
+    background-color: #1F3D2B;
+    padding: 10px;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: #162A22;
+    margin: 0;
+    padding: 0;
+}
+
+nav a{
+    display: block;
+    color: #A67C52;
+    padding: 16px 18px;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: #1F3D2B;
+    color: #E0A458;
+}
+
+main{
+    padding: 30px 60px;
+    margin-bottom: 50px;
+}
+
+footer{
+    color: #F4F1DE;
+    background-color: #1F3D2B;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+p{
+    font-size: large;
+}
+
+.info_buho{
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.info_buho ul{
+    list-style: circle;
+    padding: 0;
+}
+
+.info_buho li{
+    margin-bottom: 10px;
+}
+
+.info_buho a{
+    color: #A67C52;
+    text-decoration: none;
+}
+
+.info_buho a:hover{
+    color: #E0A458;
+}
+
+.links {
+    border: 1px solid #1F3D2B;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #1B263B;
+}
+
+.links ul{
+    margin-left: 10px;
+}
+
+.links h3{
+    text-decoration: underline;
+}
+
+.boton_inicio{
+    color: #A67C52;
+    text-decoration: none;
+    font-size: large;
+    border-radius: 8px;
+    border: #162A22 solid;
+    justify-content: center;
+    background-color: #1B263B;
+}
+.boton_inicio:hover{
+    color: #E0A458;
+}
+a img{
+    border: none;
+}
+main img{
+    border: #A67C52 solid;
+    border-radius: 3px;
+}
+main img:hover{
+    border: #E0A458 solid;
+    border-radius: 3px;
+}
+.Alimento h3{
+    text-decoration: underline;
+}
+.Alimento {
+    border: 1px solid #1F3D2B;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #1B263B;
+    font-size: larger;
+}
+.Alimento ul{
+    margin-left: 10px;
+}
+table, th td{
+    width: 100%;
+    padding: 10px;
+    border-collapse: collapse;
+    border-radius: 3px;
+    border-color: #1F3D2B;
+    border: solid;
+}
+th, td{
+    padding: 5px;
+    text-align: left;
+}
+
+tr:nth-child(even){
+    background-color: #1B263B;
+}
+tr:nth-child(odd){
+    background-color: #0D1B2A;
+}
+div.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.item-galeria{
+    margin: 10px;
+    border: 3px solid #A67C52;
+    width: 200px;
+    overflow: hidden;
+    background-color: #0D1B2A;
+}
+
+div.item-galeria:hover{
+    border: 3px solid #E0A458;
+}
+div.item-galeria img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+}
+div.item-galeria div.desc{
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+
+form {
+    background-color: #0D1B2A;
+    padding: 30px;
+    width: 100%;
+    max-width: 900px;       /* evita que sea gigante en pantallas grandes */
+    margin: 40px auto;
+    border: 2px solid #1F3D2B;
+    border-radius: 8px;
+}
+
+/* Agrupar campos */
+.form-grupo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+form label {
+    margin-bottom: 5px;
+    color: #F4F1DE;
+    font-weight: bold;
+}
+
+form input {
+    padding: 12px;
+    border: 1px solid #1F3D2B;
+    border-radius: 5px;
+    background-color: #1B263B;
+    color: #F4F1DE;
+}
+
+/* Focus */
+form input:focus {
+    outline: none;
+    border: 1px solid #E0A458;
+}
+
+/* Botón alineado */
+form button {
+    padding: 12px;
+    margin: 5px;
+    background-color: #A67C52;
+    color: #0D1B2A;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 200px;
+}
+
+/* Centrar botón */
+.form-boton {
+    display: flex;
+    justify-content: center;
+}
+
+/* Hover */
+form button:hover {
+    background-color: #E0A458;
+}
